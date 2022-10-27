@@ -1,0 +1,21 @@
+p {
+    background-color: rgb(206, 72, 99);
+    font-family: Verdana, "Deja Vu", sans-serif;
+}
+
+#apples {
+    color: rgb(8, 47, 175);
+    font-size: 36px;
+}
+
+.oranges {
+    font-size: 24px;
+}
+
+#fruits {
+    background-color: rgb(103, 218, 82);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+The fourth element**: a light green background, a font size of 24px, and bold
