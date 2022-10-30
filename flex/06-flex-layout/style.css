@@ -18,10 +18,52 @@ button {
   background: #eee;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+
+.header .left-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header .right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header .left-links, 
+.header .right-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+
+.footer .left-links, 
+.footer .right-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
